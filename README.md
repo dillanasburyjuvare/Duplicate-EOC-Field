@@ -8,12 +8,12 @@ This extension uses Javascript to scan the document and find any duplicate eocfi
 
 For example if you have an eofield called 'position_name' and it is listed in your HTML like the following:
 
-![Status Bar Message](./images/Animation.gif)
+![Status Bar Message](duplicate-eoc-field/images/Animation.gif)
 
 
 This message will appear on the right hand side of the status bar:
 
-![Status Bar Message](./images/StatusBarMessage.png)
+![Status Bar Message](duplicate-eoc-field/images/StatusBarMessage.png)
 
 
 ## Requirements
