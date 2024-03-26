@@ -2,7 +2,7 @@
   "name": "duplicate-eoc-field",
   "displayName": "Duplicate eocfield",
   "description": "Find duplicate eoc fields in board views",
-  "publisher": "Dillan Asbury",
+  "publisher": "DillanAsbury",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.87.0"
