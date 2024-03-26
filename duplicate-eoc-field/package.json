@@ -3,24 +3,33 @@
   "displayName": "Duplicate eocfield",
   "description": "Find duplicate eoc fields in board views",
   "publisher": "DillanAsbury",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.87.0"
+  },
+  "icon": "images/JuvareLogo.png",
+  "author": {
+    "name": "Dillan Asbury"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/dillanasburyjuvare/Duplicate-EOC-Field.git"
-  },  
+  },
+  "homepage": "https://github.com/dillanasburyjuvare/Duplicate-EOC-Field/blob/main/README.md",
   "categories": [
     "Other"
   ],
-  "activationEvents": ["onStartupFinished"],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "duplicate-eoc-field",
-      "title": "Duplicate eocfields"
-    }]
+    "commands": [
+      {
+        "command": "duplicate-eoc-field",
+        "title": "Duplicate eocfields"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
