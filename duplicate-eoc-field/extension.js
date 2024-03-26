@@ -15,9 +15,7 @@ function activate(context) {
 	console.log('Congratulations, your extension "duplicate-eoc-field" is now active!');
 	let activeEditor = vscode.window.activeTextEditor;
 	const statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
-	// The command has been defined in the package.json file
-	// Now provide the implementation of the command with  registerCommand
-	// The commandId parameter must match the command field in package.json
+
 	vscode.workspace.onDidChangeTextDocument(activeEditor => {
 		
 		if (activeEditor) {
